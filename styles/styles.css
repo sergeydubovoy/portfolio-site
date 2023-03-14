@@ -1,0 +1,95 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "IBM Plex Mono";
+  background-color: gainsboro;
+  color: white;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1150px;
+  position: relative;
+}
+.header {
+  padding-top: 27px;
+  min-height: 765px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/resources/photo-5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 70%;
+}
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+}
+.header__list {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__item {
+  margin-right: 50px;
+}
+.header__item a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+.header__item a:hover {
+  text-decoration: none;
+  color: #304ffe;
+  transition: all 0.3s ease;
+}
+.header__item:nth-last-child(1) {
+  margin-right: 0px;
+}
+.header__logo {
+  display: block;
+  background-color: black;
+  width: 170px;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 55px;
+  letter-spacing: -0.11em;
+  text-align: center;
+  text-decoration: none;
+  color: #304ffe;
+  border-radius: 100px;
+}
+.header__text {
+  position: absolute;
+  top: 334px;
+  width: 430px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+}
+.header__title {
+  position: absolute;
+  top: 466px;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 70px;
+  letter-spacing: -0.03em;
+  color: #304ffe;
+  min-width: 740px;
+}
+.project__bage {
+  font-family: "Manrope";
+}

@@ -17,15 +17,22 @@
       <div class="container">
         <div class="header__inner">
           <a href="" class="header__logo">DUBOVOY</a>
-          <nav class="header__menu"></nav>
-          <ul class="header__list">
-            <li class="header__item"><a href="#portfolio">портфолио</a></li>
-            <li class="header__item">
-              <a href="#competencies">компетенции</a>
-            </li>
-            <li class="header__item"><a href="#services">услуги</a></li>
-            <li class="header__item"><a href="#contacts">контакты</a></li>
-          </ul>
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#portfolio">портфолио</a>
+              </li>
+              <li class="header__item">
+                <a href="#competencies">компетенции</a>
+              </li>
+              <li class="header__item">
+                <a href="#services">услуги</a>
+              </li>
+              <li class="header__item">
+                <a href="#contacts">контакты</a>
+              </li>
+            </ul>
+          </nav>
         </div>
         <p class="header__text">
           Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
@@ -60,8 +67,8 @@
       <section class="competencies">
         <div class="container">
           <h2 class="competencies__title">Мои компетенции</h2>
-          <div class="competencies__list">
-            <div class="competence">
+          <ul class="competencies__list">
+            <li class="competence">
               <h3 class="competence__name">HTML и CSS</h3>
               <p class="competence__text">
                 это основа фронтенд разработки. Умение создавать и правильно
@@ -69,10 +76,8 @@
                 документам на CSS, является обязательным навыком для каждого
                 фронтенд разработчика.
               </p>
-            </div>
-          </div>
-          <div class="competencies__list">
-            <div class="competence">
+            </li>
+            <li class="competence">
               <h3 class="competence__name">JavaScript</h3>
               <p class="competence__text">
                 это язык программирования, который используется для создания
@@ -81,10 +86,8 @@
                 JavaScript, включая работу с DOM-деревом, асинхронными запросами
                 и манипуляцией данными на стороне клиента.
               </p>
-            </div>
-          </div>
-          <div class="competencies__list">
-            <div class="competence">
+            </li>
+            <li class="competence">
               <h3 class="competence__name">
                 Работа с библиотеками и фреймворками
               </h3>
@@ -95,10 +98,8 @@
                 под нужды проекта и расширять их функциональность, является
                 очень важным навыком.
               </p>
-            </div>
-          </div>
-          <div class="competencies__list">
-            <div class="competence">
+            </li>
+            <li class="competence">
               <h3 class="competence__name">
                 Разработка для мобильных устройств и адаптивная верстка
               </h3>
@@ -109,15 +110,90 @@
                 под нужды проекта и расширять их функциональность, является
                 очень важным навыком.
               </p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
       </section>
       <section class="services">
-        <div class="container"></div>
+        <div class="container">
+          <h2 class="services__title">
+            Помогаю реализовать широкий спектр задач
+          </h2>
+          <ul class="services__list">
+            <li class="service">
+              <div class="service__image"></div>
+              <div class="service__description">
+                <h3 class="service__name">Разработка сайта под ключ</h3>
+                <p class="service__text">
+                  Это создание дизайн веб-сайтов, созданный для удобства
+                  пользователя и решения бизнес-задач. <br />
+                  Сайты должны быть понятными и удобными, ведь чем понятнее
+                  сайт, тем быстрее пользователь совершит целевое действие.
+                </p>
+              </div>
+            </li>
+            <li class="service">
+              <div class="service__image"></div>
+              <div class="service__description">
+                <h3 class="service__name">Верстка сайтов</h3>
+                <p class="service__text">
+                  Это процесс создания HTML-документов и применения к ним стилей
+                  на CSS. Фронтенд разработчик может помочь создать
+                  привлекательный и удобный интерфейс для вашего сайта.
+                </p>
+              </div>
+            </li>
+            <li class="service">
+              <div class="service__image"></div>
+              <div class="service__description">
+                <h3 class="service__name">Разработка мобильного интерфейса</h3>
+                <p class="service__text">
+                  Это процесс создания интерактивных элементов на странице с
+                  помощью JavaScript. Фронтенд разработчик может помочь создать
+                  динамический и удобный пользовательский интерфейс для вашего
+                  сайта или приложения.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="contacts"></section>
+      <section class="contacts">
+        <div class="container">
+          <p class="contacts__text">
+            Для связи со мной заполните простую форму
+          </p>
+          <div class="contacts__frame">
+            <p class="contacts__name"></p>
+          </div>
+          <div class="contacts__frame">
+            <p class="contacts__email"></p>
+          </div>
+          <button class="contacts__send">Отправить</button>
+        </div>
+      </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="container">
+          <h3 class="footer_title">
+            Портфолио фротнтенд-разработчика Сергея Дубового
+          </h3>
+          <ul class="footer__socials">
+            <li class="social">
+              <a href="mailto:inbox@sergeydubovoy.ru">mail</a>
+            </li>
+            <li class="social">
+              <a href="https://tele.click/ssd6nik">telegram</a>
+            </li>
+            <li class="social">
+              <a href="https://www.instagram.com/sergeydubovoi/">instagram</a>
+            </li>
+          </ul>
+          <p class="rights">Все права защищены. 2023</p>
+          <a href="/" class="politics"></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
