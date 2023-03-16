@@ -5,7 +5,7 @@ body {
   box-sizing: border-box;
   width: 100%;
   font-family: "IBM Plex Mono";
-  background-color: gainsboro;
+  background-color: black;
   color: white;
 }
 .container {
@@ -22,7 +22,7 @@ body {
       rgba(0, 0, 0, 0.2) 0%,
       rgba(0, 0, 0, 0.5) 100%
     ),
-    url(/resources/photo-5.jpg);
+    url(/resources/photo-6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 70%;
@@ -90,6 +90,143 @@ body {
   color: #304ffe;
   min-width: 740px;
 }
+.projects {
+  box-sizing: border-box;
+  padding-top: 150px;
+}
+.projects__title {
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+}
+.project {
+  position: relative;
+  height: 550px;
+  border-radius: 30px;
+  letter-spacing: -0.03em;
+}
+.project__name {
+  position: absolute;
+  left: 50px;
+  bottom: 94px;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 46px;
+}
+.project__name a {
+  text-decoration: none;
+  color: white;
+}
+.project__work {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+}
 .project__bage {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 47px;
+  border-radius: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  left: 50px;
+  top: 49px;
   font-family: "Manrope";
+  background: #304ffe;
+}
+.project__bage p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.project__first {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url(/resources/metrika@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.project__second {
+  margin-bottom: 80px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url(/resources/nothing-store@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.projects__link {
+  box-sizing: border-box;
+  display: block;
+  padding-top: 56px;
+  margin-bottom: 150px;
+  width: 582px;
+  height: 153px;
+  background: #304ffe;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: -0.03em;
+  transition: all 0.3s ease;
+}
+.projects__link:hover {
+  color: #304ffe;
+  background: transparent;
+  border: 1px solid #304ffe;
+  transition: all 0.3s ease;
+}
+.competencies {
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+.competencies__title {
+  margin-bottom: 40px;
+  font-size: 55px;
+  line-height: 72px;
+}
+.competence {
+  position: relative;
+  max-height: 360px;
+}
+.competence__name {
+  font-size: 35px;
+  line-height: 46px;
+  color: #304ffe;
+  margin-bottom: 15px;
+}
+.competence__text {
+  font-size: 22px;
+  line-height: 29px;
+}
+.competence::before {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: 100px;
+  width: 45px;
+  height: 44px;
+  border-radius: 10px;
+  background: #304ffe;
 }
