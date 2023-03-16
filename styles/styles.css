@@ -13,6 +13,7 @@ body {
   width: 100%;
   max-width: 1150px;
   position: relative;
+  letter-spacing: -0.03em;
 }
 .header {
   padding-top: 27px;
@@ -276,4 +277,67 @@ body {
   line-height: 29px;
   max-width: 778px;
   margin-bottom: 120px;
+}
+.services {
+}
+.services__title {
+  margin-bottom: 75px;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 46px;
+  max-width: 403px;
+  letter-spacing: -0.03em;
+}
+.services__list {
+  margin-bottom: 150px;
+}
+.service {
+  margin-bottom: 75px;
+}
+.service__image {
+  border-radius: 30px;
+  width: 100%;
+  min-height: 200px;
+}
+.image-first {
+  background: url(/resources/service-1@2x.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-second {
+  background: url(/resources/service-2@2x.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-third {
+  background: url(/resources/service-3@2x.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.service__description {
+  box-sizing: border-box;
+  width: 100%;
+  height: 283px;
+  padding-left: 40px;
+  padding-top: 40px;
+  background: #191c19;
+  border-radius: 30px;
+}
+.service__name {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  color: #304ffe;
+}
+.service__text {
+  width: 749px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: -0.03em;
 }
