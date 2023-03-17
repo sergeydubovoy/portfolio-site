@@ -7,6 +7,7 @@ body {
   font-family: "IBM Plex Mono";
   background-color: black;
   color: white;
+  font-weight: 400;
 }
 .container {
   margin: 0 auto;
@@ -43,7 +44,6 @@ body {
   margin-right: 50px;
 }
 .header__item a {
-  font-weight: 400;
   font-size: 18px;
   line-height: 23px;
   letter-spacing: -0.03em;
@@ -76,7 +76,6 @@ body {
   position: absolute;
   top: 334px;
   width: 430px;
-  font-weight: 400;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: -0.03em;
@@ -84,7 +83,6 @@ body {
 .header__title {
   position: absolute;
   top: 466px;
-  font-weight: 400;
   font-size: 80px;
   line-height: 70px;
   letter-spacing: -0.03em;
@@ -97,7 +95,6 @@ body {
 }
 .projects__title {
   margin-bottom: 40px;
-  font-weight: 400;
   font-size: 55px;
   line-height: 72px;
   letter-spacing: -0.03em;
@@ -112,7 +109,6 @@ body {
   position: absolute;
   left: 50px;
   bottom: 94px;
-  font-weight: 400;
   font-size: 35px;
   line-height: 46px;
 }
@@ -124,7 +120,6 @@ body {
   position: absolute;
   left: 50px;
   bottom: 50px;
-  font-weight: 400;
   font-size: 30px;
   line-height: 39px;
 }
@@ -142,7 +137,6 @@ body {
   background: #304ffe;
 }
 .project__bage p {
-  font-weight: 400;
   font-size: 20px;
   line-height: 27px;
   letter-spacing: -0.03em;
@@ -186,7 +180,6 @@ body {
   text-align: center;
   text-decoration: none;
   color: white;
-  font-weight: 400;
   font-size: 30px;
   line-height: 39px;
   letter-spacing: -0.03em;
@@ -199,7 +192,6 @@ body {
   transition: all 0.3s ease;
 }
 .competencies {
-  font-weight: 400;
   letter-spacing: -0.03em;
 }
 .competencies__list {
@@ -279,17 +271,14 @@ body {
   margin-bottom: 120px;
 }
 .services {
+  margin-bottom: 150px;
 }
 .services__title {
   margin-bottom: 75px;
-  font-weight: 400;
   font-size: 35px;
   line-height: 46px;
   max-width: 403px;
   letter-spacing: -0.03em;
-}
-.services__list {
-  margin-bottom: 150px;
 }
 .service {
   margin-bottom: 75px;
@@ -328,7 +317,6 @@ body {
 }
 .service__name {
   margin-bottom: 15px;
-  font-weight: 400;
   font-size: 55px;
   line-height: 72px;
   letter-spacing: -0.03em;
@@ -336,8 +324,45 @@ body {
 }
 .service__text {
   width: 749px;
-  font-weight: 400;
   font-size: 22px;
   line-height: 29px;
   letter-spacing: -0.03em;
+}
+.contacts {
+  position: relative;
+  margin-bottom: 150px;
+  min-height: 717px;
+  border-radius: 30px;
+  background: url(/resources/programmer@2x.png), #191c19;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.contacts__title {
+  margin-bottom: 28px;
+  position: absolute;
+  top: 320px;
+  font-size: 35px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+}
+.socials {
+  position: absolute;
+  top: 408px;
+  display: flex;
+  flex-direction: column;
+}
+.social {
+  margin-bottom: 20px;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+}
+.social a {
+  text-decoration: none;
+  color: white;
+}
+.social:nth-last-child(1) {
+  margin-bottom: 0px;
 }
