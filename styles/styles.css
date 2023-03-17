@@ -24,7 +24,7 @@ body {
       rgba(0, 0, 0, 0.2) 0%,
       rgba(0, 0, 0, 0.5) 100%
     ),
-    url(/resources/photo-6.jpg);
+    url(../resources/photo-6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 70%;
@@ -151,7 +151,7 @@ body {
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 0.4) 100%
     ),
-    url(/resources/metrika@2x.png);
+    url(../resources/metrika@2x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -163,7 +163,7 @@ body {
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 0.4) 100%
     ),
-    url(/resources/nothing-store@2x.png);
+    url(../resources/nothing-store@2x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -217,7 +217,7 @@ body {
   width: 45px;
   height: 44px;
   border-radius: 10px;
-  background: url(/resources/icon-html.svg), #304ffe;
+  background: url(../resources/icon-html.svg), #304ffe;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -229,7 +229,7 @@ body {
   width: 45px;
   height: 44px;
   border-radius: 10px;
-  background: url(/resources/icon-js.svg), #304ffe;
+  background: url(../resources/icon-js.svg), #304ffe;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -241,7 +241,7 @@ body {
   width: 45px;
   height: 44px;
   border-radius: 10px;
-  background: url(/resources/icon-framework.svg), #304ffe;
+  background: url(../resources/icon-framework.svg), #304ffe;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -253,7 +253,7 @@ body {
   width: 45px;
   height: 44px;
   border-radius: 10px;
-  background: url(/resources/icon-react.svg), #304ffe;
+  background: url(../resources/icon-react.svg), #304ffe;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -289,19 +289,19 @@ body {
   min-height: 200px;
 }
 .image-first {
-  background: url(/resources/service-1@2x.png);
+  background: url(../resources/service-1@2x.png);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .image-second {
-  background: url(/resources/service-2@2x.png);
+  background: url(../resources/service-2@2x.png);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .image-third {
-  background: url(/resources/service-3@2x.png);
+  background: url(../resources/service-3@2x.png);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -333,7 +333,7 @@ body {
   margin-bottom: 150px;
   min-height: 717px;
   border-radius: 30px;
-  background: url(/resources/programmer@2x.png), #191c19;
+  background: url(../resources/programmer@2x.png), #191c19;
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
