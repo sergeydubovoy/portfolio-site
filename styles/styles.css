@@ -17,6 +17,7 @@ body {
   letter-spacing: -0.03em;
 }
 .header {
+  box-sizing: border-box;
   padding-top: 27px;
   min-height: 765px;
   background: linear-gradient(
@@ -37,16 +38,16 @@ body {
 }
 .header__list {
   display: inline-flex;
-  align-items: center;
   justify-content: space-between;
 }
 .header__item {
   margin-right: 50px;
+  padding-bottom: 20px;
+  letter-spacing: -0.03em;
 }
 .header__item a {
   font-size: 18px;
   line-height: 23px;
-  letter-spacing: -0.03em;
   text-decoration: none;
   color: white;
   transition: all 0.3s ease;
@@ -59,22 +60,31 @@ body {
 .header__item:nth-last-child(1) {
   margin-right: 0px;
 }
-.header__logo {
-  display: block;
+.header__logo-wrapper {
+  box-sizing: border-box;
+  position: relative;
+  justify-content: center;
+  border-radius: 100px;
   background-color: black;
   width: 170px;
+  height: 39px;
+  vertical-align: middle;
+}
+.header__logo {
+  position: absolute;
+  bottom: -7px;
+  left: 8px;
   font-weight: 700;
   font-size: 43px;
   line-height: 55px;
   letter-spacing: -0.11em;
-  text-align: center;
   text-decoration: none;
   color: #304ffe;
-  border-radius: 100px;
+  text-align: center;
 }
 .header__text {
   position: absolute;
-  top: 334px;
+  top: 308px;
   width: 430px;
   font-size: 20px;
   line-height: 26px;
@@ -82,12 +92,14 @@ body {
 }
 .header__title {
   position: absolute;
-  top: 466px;
+  top: 439px;
+  left: -6px;
   font-size: 80px;
   line-height: 70px;
   letter-spacing: -0.03em;
   color: #304ffe;
   min-width: 740px;
+  max-width: 920px;
 }
 .projects {
   box-sizing: border-box;
@@ -95,6 +107,7 @@ body {
 }
 .projects__title {
   margin-bottom: 40px;
+
   font-size: 55px;
   line-height: 72px;
   letter-spacing: -0.03em;
@@ -201,6 +214,7 @@ body {
   margin-bottom: 104px;
   font-size: 55px;
   line-height: 72px;
+  letter-spacing: -0.03em;
 }
 .competence {
   position: relative;
@@ -213,7 +227,7 @@ body {
   content: "";
   position: absolute;
   display: block;
-  top: -70px;
+  top: -57px;
   width: 45px;
   height: 44px;
   border-radius: 10px;
@@ -225,7 +239,7 @@ body {
   content: "";
   position: absolute;
   display: block;
-  top: -70px;
+  top: -57px;
   width: 45px;
   height: 44px;
   border-radius: 10px;
@@ -237,7 +251,7 @@ body {
   content: "";
   position: absolute;
   display: block;
-  top: -70px;
+  top: -57px;
   width: 45px;
   height: 44px;
   border-radius: 10px;
@@ -249,7 +263,7 @@ body {
   content: "";
   position: absolute;
   display: block;
-  top: -70px;
+  top: -57px;
   width: 45px;
   height: 44px;
   border-radius: 10px;
@@ -263,12 +277,14 @@ body {
   line-height: 46px;
   color: #304ffe;
   margin-bottom: 15px;
+  letter-spacing: -0.03em;
 }
 .competence__text {
   font-size: 22px;
   line-height: 29px;
   max-width: 778px;
   margin-bottom: 120px;
+  letter-spacing: -0.03em;
 }
 .services {
   margin-bottom: 150px;
@@ -323,7 +339,7 @@ body {
   color: #304ffe;
 }
 .service__text {
-  width: 749px;
+  max-width: 727px;
   font-size: 22px;
   line-height: 29px;
   letter-spacing: -0.03em;
@@ -380,10 +396,20 @@ body {
 }
 .footer__title {
   margin-bottom: 66px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
   color: black;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
 }
 .rights {
-  margin-bottom: 40px;
-  color: black;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
   opacity: 0.5;
 }
