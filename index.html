@@ -36,7 +36,7 @@
             </ul>
           </nav>
         </div>
-        <p class="header__text">
+        <p class="header__about">
           Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
           повышают престиж компании и позволяют выделиться на фоне конкурентов
         </p>
@@ -49,28 +49,35 @@
       <section class="projects">
         <div class="container">
           <h2 class="projects__title">Самые свежие проекты</h2>
-          <div class="project project__first">
+
+          <a href="https://sergeydubovoy.github.io/metrika/" class="project">
+            <img
+              class="project__image"
+              src="../resources/metrika@2x.png"
+              alt="Пример дизайна сайта студии Метрика"
+            />
             <div class="project__bage">
               <p>лендинг пейдж</p>
             </div>
-            <h3 class="project__name">
-              <a href="https://sergeydubovoy.github.io/metrika/"
-                >Студия дизайна интерьера Метрика</a
-              >
-            </h3>
-            <h4 class="project__work">верстка</h4>
-          </div>
-          <div class="project project__second">
+            <p class="project__name">Студия дизайна интерьера Метрика</p>
+            <p class="project__work">верстка</p>
+          </a>
+          <a
+            href="https://sergeydubovoy.github.io/nothing-store-site/"
+            class="project"
+          >
+            <img
+              class="project__image"
+              src="../resources/nothing-store@2x.png"
+              alt="Пример дизайна магазина Nothing Store"
+            />
             <div class="project__bage">
               <p>лендинг пейдж</p>
             </div>
-            <h3 class="project__name">
-              <a href="https://sergeydubovoy.github.io/nothing-store-site/"
-                >Nothing Store</a
-              >
-            </h3>
-            <h4 class="project__work">верстка</h4>
-          </div>
+            <p class="project__name">Магазин Nothing Store</p>
+            <p class="project__work">верстка</p>
+          </a>
+
           <a href="/" class="projects__link">Смотреть все проекты</a>
         </div>
       </section>
@@ -80,7 +87,7 @@
           <ul class="competencies__list">
             <li class="competence competence__first">
               <h3 class="competence__name">HTML и CSS</h3>
-              <p class="competence__text">
+              <p class="competence__description">
                 это основа фронтенд разработки. Умение создавать и правильно
                 структурировать HTML-документы, а также применять стили к этим
                 документам на CSS, является обязательным навыком для каждого
@@ -89,7 +96,7 @@
             </li>
             <li class="competence competence__second">
               <h3 class="competence__name">JavaScript</h3>
-              <p class="competence__text">
+              <p class="competence__description">
                 это язык программирования, который используется для создания
                 динамического и интерактивного пользовательского интерфейса.
                 Хороший фронтенд разработчик должен быть знаком с основами
@@ -101,7 +108,7 @@
               <h3 class="competence__name">
                 Работа с библиотеками и фреймворками
               </h3>
-              <p class="competence__text">
+              <p class="competence__description">
                 фронтенд разработчики должны быть знакомы с различными
                 библиотеками и фреймворками, такими как React, Angular, Vue и
                 другими. Умение использовать готовые решения, адаптировать их
@@ -114,7 +121,7 @@
                 Разработка для мобильных <br />
                 устройств и адаптивная верстка
               </h3>
-              <p class="competence__text">
+              <p class="competence__description">
                 фронтенд разработчики должны быть знакомы с различными
                 библиотеками и фреймворками, такими как React, Angular, Vue и
                 другими. Умение использовать готовые решения, адаптировать их
@@ -132,10 +139,14 @@
           </h2>
           <ul class="services__list">
             <li class="service">
-              <div class="service__image image-first"></div>
-              <div class="service__description">
+              <img
+                src="../resources/service-1@2x.png"
+                alt="Иллюстрация разработки сайта"
+                class="service__image"
+              />
+              <div class="service__item">
                 <h3 class="service__name">Разработка сайта под ключ</h3>
-                <p class="service__text">
+                <p class="service__description">
                   Это создание дизайн веб-сайтов, созданный для удобства
                   пользователя и решения бизнес-задач. <br />
                   Сайты должны быть понятными и удобными, ведь чем понятнее
@@ -144,10 +155,14 @@
               </div>
             </li>
             <li class="service">
-              <div class="service__image image-second"></div>
-              <div class="service__description">
+              <img
+                src="../resources/service-2@2x.png"
+                alt="Иллюстрация разработки сайта"
+                class="service__image"
+              />
+              <div class="service__item">
                 <h3 class="service__name">Верстка сайтов</h3>
-                <p class="service__text">
+                <p class="service__description">
                   Это процесс создания HTML-документов и применения к ним стилей
                   на CSS. Фронтенд разработчик может помочь создать
                   привлекательный и удобный интерфейс для вашего сайта.
@@ -155,10 +170,14 @@
               </div>
             </li>
             <li class="service">
-              <div class="service__image image-third"></div>
-              <div class="service__description">
+              <img
+                src="../resources/service-3@2x.png"
+                alt="Иллюстрация разработки сайта"
+                class="service__image"
+              />
+              <div class="service__item">
                 <h3 class="service__name">Разработка мобильного интерфейса</h3>
-                <p class="service__text">
+                <p class="service__description">
                   Это процесс создания интерактивных элементов на странице с
                   помощью JavaScript. Фронтенд разработчик может помочь создать
                   динамический и удобный пользовательский интерфейс для вашего
@@ -190,7 +209,7 @@
       <div class="footer__wrapper">
         <div class="container">
           <h3 class="footer__title">
-            Портфолио фротнтенд-разработчика Сергея Дубового
+            Портфолио фронтенд-разработчика Сергея Дубового
           </h3>
           <p class="rights">Все права защищены. 2023</p>
         </div>
