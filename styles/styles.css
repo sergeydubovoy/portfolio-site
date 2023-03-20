@@ -68,10 +68,9 @@ body {
 .header__logo-wrapper {
   box-sizing: border-box;
   position: relative;
-  justify-content: center;
   border-radius: 100px;
   background-color: black;
-  width: 170px;
+  width: 210px;
   height: 39px;
   vertical-align: middle;
 }
