@@ -1,20 +1,22 @@
 .skills {
-  letter-spacing: -0.03em;
-}
-.skills__list {
-  margin-bottom: 150px;
+  padding: 150px 0 150px 0;
 }
 .skills__title {
   margin-bottom: 104px;
 }
+.skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
 .skill {
   position: relative;
-  margin-bottom: 120px;
+  width: calc(50% - 25px);
 }
 .skill:nth-last-child(1) {
   margin-bottom: 0px;
 }
-.skill:nth-child(1)::before {
+.skill::before {
   content: "";
   position: absolute;
   display: block;
@@ -22,45 +24,21 @@
   width: 45px;
   height: 44px;
   border-radius: 10px;
-  background: url(../resources/icon-html.svg), #304ffe;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  background-color: #304ffe;
+}
+.skill:nth-child(1)::before {
+  background-image: url(../resources/icon-html.svg);
 }
 .skill:nth-child(2)::before {
-  content: "";
-  position: absolute;
-  display: block;
-  top: -57px;
-  width: 45px;
-  height: 44px;
-  border-radius: 10px;
-  background: url(../resources/icon-js.svg), #304ffe;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-image: url(../resources/icon-js.svg);
 }
 .skill:nth-child(3)::before {
-  content: "";
-  position: absolute;
-  display: block;
-  top: -57px;
-  width: 45px;
-  height: 44px;
-  border-radius: 10px;
-  background: url(../resources/icon-framework.svg), #304ffe;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-image: url(../resources/icon-framework.svg);
 }
 .skill:nth-child(4)::before {
-  content: "";
-  position: absolute;
-  display: block;
-  top: -57px;
-  width: 45px;
-  height: 44px;
-  border-radius: 10px;
-  background: url(../resources/icon-react.svg), #304ffe;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-image: url(../resources/icon-react.svg);
 }
 .skill__name {
   display: block;
@@ -68,12 +46,9 @@
   line-height: 46px;
   color: #304ffe;
   margin-bottom: 15px;
-  letter-spacing: -0.03em;
 }
 .skill__description {
   font-size: 22px;
   line-height: 29px;
   max-width: 778px;
-  margin-bottom: 120px;
-  letter-spacing: -0.03em;
 }
