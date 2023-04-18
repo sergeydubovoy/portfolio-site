@@ -1,4 +1,5 @@
 @import "../styles/header.css";
+@import "../styles/start.css";
 @import "../styles/projects.css";
 @import "../styles/skills.css";
 @import "../styles/services.css";
@@ -11,17 +12,25 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  box-sizing: border-box;
   width: 100%;
   font-family: "IBM Plex Mono";
   background-color: black;
   color: white;
   font-weight: 400;
 }
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
 .container {
   margin: 0 auto;
-  width: 100%;
   max-width: 1150px;
   position: relative;
-  letter-spacing: -0.03em;
+}
+.inner {
+  width: 100%;
+}
+.title {
+  font-size: 55px;
+  line-height: 72px;
 }

@@ -1,23 +1,20 @@
-.competencies {
+.skills {
   letter-spacing: -0.03em;
 }
-.competencies__list {
+.skills__list {
   margin-bottom: 150px;
 }
-.competencies__title {
+.skills__title {
   margin-bottom: 104px;
-  font-size: 55px;
-  line-height: 72px;
-  letter-spacing: -0.03em;
 }
-.competence {
+.skill {
   position: relative;
   margin-bottom: 120px;
 }
-.competence:nth-last-child(1) {
+.skill:nth-last-child(1) {
   margin-bottom: 0px;
 }
-.competence:nth-child(1)::before {
+.skill:nth-child(1)::before {
   content: "";
   position: absolute;
   display: block;
@@ -29,7 +26,7 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-.competence:nth-child(2)::before {
+.skill:nth-child(2)::before {
   content: "";
   position: absolute;
   display: block;
@@ -41,7 +38,7 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-.competence:nth-child(3)::before {
+.skill:nth-child(3)::before {
   content: "";
   position: absolute;
   display: block;
@@ -53,7 +50,7 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-.competence:nth-child(4)::before {
+.skill:nth-child(4)::before {
   content: "";
   position: absolute;
   display: block;
@@ -65,7 +62,7 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-.competence__name {
+.skill__name {
   display: block;
   font-size: 35px;
   line-height: 46px;
@@ -73,7 +70,7 @@
   margin-bottom: 15px;
   letter-spacing: -0.03em;
 }
-.competence__description {
+.skill__description {
   font-size: 22px;
   line-height: 29px;
   max-width: 778px;

@@ -1,0 +1,36 @@
+.header {
+  padding-top: 27px;
+  min-height: 765px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(../resources/photo-6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 70%;
+}
+.header__about {
+  position: absolute;
+  top: 308px;
+  width: 430px;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+}
+.header__title {
+  position: absolute;
+  top: 439px;
+  left: -6px;
+  font-size: 80px;
+  line-height: 70px;
+  letter-spacing: -0.03em;
+  color: white;
+  min-width: 740px;
+  max-width: 920px;
+  transition: all 0.3s ease;
+}
+.header__title:hover {
+  transition: all 0.3s ease;
+}
