@@ -1,5 +1,4 @@
 .contacts {
-  position: relative;
   margin-bottom: 150px;
   min-height: 717px;
   border-radius: 30px;
@@ -7,6 +6,9 @@
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
+}
+.contacts-wrapper {
+  display: flex;
 }
 .contacts__title {
   margin-bottom: 28px;
@@ -16,28 +18,20 @@
   line-height: 60px;
   letter-spacing: -0.03em;
 }
-.socials {
-  position: absolute;
-  top: 408px;
+.input__form {
   display: flex;
   flex-direction: column;
+  width: 570px;
 }
-.social {
-  margin-bottom: 20px;
-  font-size: 60px;
-  line-height: 60px;
-  letter-spacing: -0.03em;
-  text-decoration: none;
-}
-.social a {
-  text-decoration: none;
-  color: white;
-  transition: all 0.3s ease;
-}
-.social a:hover {
-  color: #304ffe;
-  transition: all 0.3s ease;
-}
-.social:nth-last-child(1) {
-  margin-bottom: 0px;
+.input {
+  display: block;
+  padding: 10px 0 10px 0;
+  background: #3b3d3b;
+  border-radius: 100px;
+  border-bottom: 1px solid black;
+  font-size: 25px;
+  line-height: 34px;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  outline: none;
 }
