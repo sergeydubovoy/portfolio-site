@@ -1,31 +1,25 @@
 .about {
-  padding-top: 27px;
   height: 765px;
+  padding: 330px 0 90px 0;
   background: linear-gradient(
       180deg,
-      rgba(0, 0, 0, 0.2) 0%,
-      rgba(0, 0, 0, 0.5) 100%
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.7) 100%
     ),
-    url(../resources/photo-6.jpg);
+    url(../resources/photo-4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 70%;
+  background-position: 50%;
 }
 .about__description {
-  position: absolute;
-  top: 308px;
+  margin-bottom: 30px;
   width: 430px;
   font-size: 20px;
   line-height: 26px;
-  letter-spacing: -0.03em;
 }
 .about__title {
-  position: absolute;
-  top: 439px;
-  left: -6px;
   font-size: 80px;
   line-height: 70px;
-  letter-spacing: -0.03em;
   color: white;
   min-width: 740px;
   max-width: 920px;

@@ -40,7 +40,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="main">
       <section class="about">
         <div class="container">
           <p class="about__description">
@@ -57,35 +57,42 @@
           <h2 class="title projects__title" id="portfolio">
             Самые свежие проекты
           </h2>
-
-          <a href="https://sergeydubovoy.github.io/metrika/" class="project">
-            <img
-              class="project__image"
-              src="resources/metrika@2x.png"
-              alt="Пример дизайна сайта студии Метрика"
-            />
-            <div class="project__bage">
-              <p>лендинг пейдж</p>
-            </div>
-            <p class="project__name">Студия дизайна интерьера Метрика</p>
-            <p class="project__work">верстка</p>
-          </a>
-          <a
-            href="https://sergeydubovoy.github.io/nothing-store-site/"
-            class="project"
-          >
-            <img
-              class="project__image"
-              src="resources/nothing-store@2x.png"
-              alt="Пример дизайна магазина Nothing Store"
-            />
-            <div class="project__bage">
-              <p>лендинг пейдж</p>
-            </div>
-            <p class="project__name">Магазин Nothing Store</p>
-            <p class="project__work">верстка</p>
-          </a>
-
+          <ul class="projects__list">
+            <li class="project">
+              <a
+                class="project__link"
+                href="https://sergeydubovoy.github.io/metrika/"
+              >
+                <img
+                  class="project__image"
+                  src="resources/metrika@2x.png"
+                  alt="Пример дизайна сайта студии Метрика"
+                />
+                <div class="project__bage">
+                  <p>дизайн интерьера</p>
+                </div>
+                <p class="project__name">Студия дизайна интерьера Метрика</p>
+                <p class="project__work">верстка</p>
+              </a>
+            </li>
+            <li class="project">
+              <a
+                class="project__link"
+                href="https://sergeydubovoy.github.io/nothing-store-site/"
+              >
+                <img
+                  class="project__image"
+                  src="resources/nothing-store@2x.png"
+                  alt="Пример дизайна магазина Nothing Store"
+                />
+                <div class="project__bage">
+                  <p>презентация продукта</p>
+                </div>
+                <p class="project__name">Магазин Nothing Store</p>
+                <p class="project__work">верстка</p>
+              </a>
+            </li>
+          </ul>
           <a href="/index.html" class="projects__link">Смотреть все проекты</a>
         </div>
       </section>
