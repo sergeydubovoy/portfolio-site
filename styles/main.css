@@ -31,6 +31,8 @@ button {
   width: 100%;
 }
 .title {
+  margin-bottom: 80px;
+  max-width: 60%;
   font-size: 55px;
   line-height: 72px;
 }

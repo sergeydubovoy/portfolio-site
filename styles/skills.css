@@ -1,9 +1,6 @@
 .skills {
   padding: 150px 0 150px 0;
 }
-.skills__title {
-  margin-bottom: 104px;
-}
 .skills__list {
   display: flex;
   flex-wrap: wrap;
@@ -51,5 +48,4 @@
 .skill__description {
   font-size: 22px;
   line-height: 29px;
-  max-width: 778px;
 }
