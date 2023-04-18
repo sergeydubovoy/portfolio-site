@@ -1,0 +1,40 @@
+.services {
+  margin-bottom: 150px;
+}
+.services__title {
+  margin-bottom: 75px;
+  font-size: 35px;
+  line-height: 46px;
+  max-width: 403px;
+  letter-spacing: -0.03em;
+}
+.service {
+  margin-bottom: 75px;
+}
+.service__image {
+  border-radius: 30px;
+  width: 100%;
+  min-height: 200px;
+}
+.service__item {
+  box-sizing: border-box;
+  width: 100%;
+  height: 283px;
+  padding-left: 40px;
+  padding-top: 40px;
+  background: #191c19;
+  border-radius: 30px;
+}
+.service__name {
+  margin-bottom: 15px;
+  font-size: 55px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  color: #304ffe;
+}
+.service__description {
+  max-width: 727px;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+}

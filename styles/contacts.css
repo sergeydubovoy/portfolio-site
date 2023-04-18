@@ -1,0 +1,43 @@
+.contacts {
+  position: relative;
+  margin-bottom: 150px;
+  min-height: 717px;
+  border-radius: 30px;
+  background: url(../resources/programmer@2x.png), #191c19;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.contacts__title {
+  margin-bottom: 28px;
+  position: absolute;
+  top: 320px;
+  font-size: 35px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+}
+.socials {
+  position: absolute;
+  top: 408px;
+  display: flex;
+  flex-direction: column;
+}
+.social {
+  margin-bottom: 20px;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+}
+.social a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+.social a:hover {
+  color: #304ffe;
+  transition: all 0.3s ease;
+}
+.social:nth-last-child(1) {
+  margin-bottom: 0px;
+}

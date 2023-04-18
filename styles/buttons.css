@@ -1,0 +1,23 @@
+.projects__link {
+  box-sizing: border-box;
+  display: block;
+  padding-top: 56px;
+  margin-bottom: 150px;
+  width: 582px;
+  height: 153px;
+  background: #304ffe;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: -0.03em;
+  transition: all 0.3s ease;
+}
+.projects__link:hover {
+  color: #304ffe;
+  background: transparent;
+  border: 1px solid #304ffe;
+  transition: all 0.3s ease;
+}

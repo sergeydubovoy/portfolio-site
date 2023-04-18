@@ -1,0 +1,82 @@
+.competencies {
+  letter-spacing: -0.03em;
+}
+.competencies__list {
+  margin-bottom: 150px;
+}
+.competencies__title {
+  margin-bottom: 104px;
+  font-size: 55px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+}
+.competence {
+  position: relative;
+  margin-bottom: 120px;
+}
+.competence:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+.competence:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: -57px;
+  width: 45px;
+  height: 44px;
+  border-radius: 10px;
+  background: url(../resources/icon-html.svg), #304ffe;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.competence:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: -57px;
+  width: 45px;
+  height: 44px;
+  border-radius: 10px;
+  background: url(../resources/icon-js.svg), #304ffe;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.competence:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: -57px;
+  width: 45px;
+  height: 44px;
+  border-radius: 10px;
+  background: url(../resources/icon-framework.svg), #304ffe;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.competence:nth-child(4)::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: -57px;
+  width: 45px;
+  height: 44px;
+  border-radius: 10px;
+  background: url(../resources/icon-react.svg), #304ffe;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.competence__name {
+  display: block;
+  font-size: 35px;
+  line-height: 46px;
+  color: #304ffe;
+  margin-bottom: 15px;
+  letter-spacing: -0.03em;
+}
+.competence__description {
+  font-size: 22px;
+  line-height: 29px;
+  max-width: 778px;
+  margin-bottom: 120px;
+  letter-spacing: -0.03em;
+}

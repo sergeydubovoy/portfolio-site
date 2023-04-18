@@ -1,0 +1,27 @@
+@import "../styles/header.css";
+@import "../styles/projects.css";
+@import "../styles/skills.css";
+@import "../styles/services.css";
+@import "../styles/contacts.css";
+@import "../styles/footer.css";
+@import "../styles/burger.css";
+@import "../styles/buttons.css";
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "IBM Plex Mono";
+  background-color: black;
+  color: white;
+  font-weight: 400;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1150px;
+  position: relative;
+  letter-spacing: -0.03em;
+}

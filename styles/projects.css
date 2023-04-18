@@ -1,0 +1,72 @@
+.projects {
+  box-sizing: border-box;
+  padding-top: 150px;
+}
+.projects__title {
+  margin-bottom: 40px;
+  font-size: 55px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+}
+.project {
+  display: block;
+  position: relative;
+  margin-bottom: 75px;
+  width: 100%;
+  letter-spacing: -0.03em;
+  color: white;
+  transition: all 0.3s ease;
+}
+.project:hover {
+  color: #304ffe;
+  transition: all 0.3s ease;
+}
+.project a {
+  text-decoration: none;
+}
+.project__image {
+  position: relative;
+  width: 1150px;
+  height: 550px;
+  border-radius: 30px;
+}
+.project__name {
+  position: absolute;
+  left: 50px;
+  bottom: 94px;
+  font-size: 35px;
+  line-height: 46px;
+}
+.project__name a {
+  text-decoration: none;
+  color: white;
+}
+.project__work {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  font-size: 30px;
+  line-height: 39px;
+}
+.project__bage {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 47px;
+  border-radius: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  left: 50px;
+  top: 49px;
+  font-family: "Manrope";
+  background: #304ffe;
+}
+.project__bage p {
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: white;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
