@@ -1,19 +1,113 @@
-.projects__link {
-  display: block;
-  padding-top: 56px;
-  width: 582px;
-  height: 153px;
-  background: #304ffe;
-  border-radius: 10px;
-  text-align: center;
-  text-decoration: none;
-  color: white;
+.button-big {
+  width: 580px;
+  height: 150px;
   font-size: 30px;
   line-height: 39px;
-  transition: all 0.3s ease;
+  text-decoration: none;
+  margin-top: 60px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #304ffe;
+  overflow: hidden;
+  border: none;
 }
-.projects__link:hover {
+.button-big:after {
+  content: " ";
+  width: 0%;
+  height: 100%;
+  background-color: black;
+  box-shadow: inset 0px 0px 0px 2px #304ffe;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  right: 0;
+  border-radius: 10px;
+}
+
+.button-big:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+.button-big span {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 18px 25px;
+  color: #fff;
+  z-index: 20;
+  font-size: 30px;
+  line-height: 39px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-big:hover span {
   color: #304ffe;
-  background: transparent;
-  border: 1px solid #304ffe;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+.button {
+  margin-top: 60px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 70px;
+  border-radius: 10px;
+  background: #304ffe;
+  overflow: hidden;
+  border: none;
+}
+
+.button:after {
+  content: " ";
+  width: 0%;
+  height: 100%;
+  background-color: #191c19;
+  box-shadow: inset 0px 0px 0px 2px #304ffe;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  right: 0;
+  border-radius: 10px;
+}
+
+.button:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+.button span {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 18px 25px;
+  color: #fff;
+  z-index: 20;
+  font-size: 22px;
+  line-height: 29px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover span {
+  color: #304ffe;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
