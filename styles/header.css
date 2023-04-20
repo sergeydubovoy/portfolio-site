@@ -6,7 +6,6 @@
   background-color: black;
   z-index: 100;
 }
-
 .header__inner {
   display: flex;
   align-items: center;
@@ -54,4 +53,19 @@
 }
 .header__link a:hover {
   color: #304ffe;
+}
+@media (max-width: 1199px) {
+  .header {
+    position: absolute;
+    padding: 30px 0 0 0;
+    background-color: transparent;
+  }
+  .header__logo-wrapper {
+    background-color: black;
+    width: 220px;
+    border-radius: 100px;
+  }
+  .header__list {
+    display: none;
+  }
 }

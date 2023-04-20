@@ -10,6 +10,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
+  border-radius: 0 0 30px 30px;
 }
 .about__description {
   margin-bottom: 30px;
