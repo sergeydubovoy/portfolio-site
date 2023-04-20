@@ -1,5 +1,6 @@
 .burger-btn {
   display: none;
+  z-index: 1100;
 }
 .burger {
   position: fixed;
