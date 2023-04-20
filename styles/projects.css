@@ -33,6 +33,21 @@
   border-radius: 30px;
   transition: all 0.3s ease;
 }
+/* .project__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  border-radius: 30px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+} */
 .project__link {
   color: white;
   text-decoration: none;
@@ -48,10 +63,6 @@
   font-size: 35px;
   line-height: 46px;
 }
-.project__name a {
-  text-decoration: none;
-  color: white;
-}
 .project__work {
   position: absolute;
   left: 50px;
@@ -59,25 +70,48 @@
   font-size: 30px;
   line-height: 39px;
 }
-.project__bage {
+.label {
   position: absolute;
   display: flex;
   align-items: center;
   height: 47px;
   border-radius: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 10px 20px;
   left: 50px;
   top: 49px;
   font-family: "Manrope";
   background: #304ffe;
+  z-index: 100;
 }
-.project__bage p {
+.label p {
   font-size: 20px;
   line-height: 27px;
-  letter-spacing: -0.03em;
   color: white;
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+@media (max-width: 1199px) {
+  .projects__list {
+    margin-bottom: 64px;
+    gap: 60px;
+  }
+  .project {
+    height: 445px;
+  }
+  .label {
+    padding: 8px 16px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .project__name {
+    bottom: 76px;
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .project__work {
+    bottom: 40px;
+    font-size: 24px;
+    line-height: 31px;
+  }
 }
