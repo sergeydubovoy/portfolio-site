@@ -8,7 +8,7 @@
   transform: translateY(-50%) translateX(-50%);
   z-index: 1000;
   pointer-events: none;
-  transition: all 0.3s linear;
+  transition: width 0.3s linear, height 0.3s linear;
 }
 .follow-cursor_active {
   height: 128px;
