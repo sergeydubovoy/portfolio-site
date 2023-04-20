@@ -12,12 +12,12 @@
 .contacts-wrapper {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 .contacts__title {
   display: block;
-  margin-bottom: 28px;
-  top: 320px;
-  font-size: 35px;
+  margin-bottom: 69px;
+  font-size: 60px;
   line-height: 60px;
 }
 .input__form {
