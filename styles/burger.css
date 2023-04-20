@@ -1,6 +1,5 @@
 .burger-btn {
   display: none;
-  z-index: 1100;
 }
 .burger {
   position: fixed;
@@ -22,7 +21,7 @@
   z-index: 1000;
 }
 .burger__content {
-  padding: 65px 0 65px 30px;
+  padding: 100px 0 65px 30px;
   width: 360px;
   height: 100%;
   background: black;
