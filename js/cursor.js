@@ -8,8 +8,12 @@ document.addEventListener("DOMContentLoaded", () => {
       const target = e.target; // определяем, где находится курсор
       if (!target) return;
 
-      if (target.closest("a")) {
-        // если курсор наведён на ссылку
+      if (
+        target.closest("a") ||
+        target.closest("button") ||
+        target.closest("input")
+      ) {
+        // если курсор наведён на ссылку, кнопку и инпут
         el.classList.add("follow-cursor_active"); // элементу добавляем активный класс
       } else {
         // иначе

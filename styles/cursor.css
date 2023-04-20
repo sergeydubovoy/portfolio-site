@@ -5,6 +5,7 @@
   height: 24px;
   border: 1px solid #304ffe;
   border-radius: 50%;
+  box-shadow: 0px 0px 10px 0px #304ffe;
   transform: translateY(-50%) translateX(-50%);
   z-index: 1000;
   pointer-events: none;
