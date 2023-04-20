@@ -16,8 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
         el.classList.remove("follow-cursor_active"); // удаляем активный класс
       }
 
-      el.style.left = e.pageX + "px"; // задаём элементу позиционирование слева
-      el.style.top = e.pageY + "px"; // задаём элементу позиционирование сверху
+      el.style.left = e.clientX + "px"; // задаём элементу позиционирование слева
+      el.style.top = e.clientY + "px";
+      // el.style.left = e.pageX + "px"; // задаём элементу позиционирование слева
+      // el.style.top = e.pageY + "px"; // задаём элементу позиционирование сверху
     });
   };
 
