@@ -82,32 +82,66 @@
 @media (max-width: 1199px) {
   .burger-btn {
     display: flex;
-    position: absolute;
+    position: relative;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 8px;
-    top: 0px;
-    right: 0px;
+    /* flex-direction: column;
+    gap: 8px; */
     width: 63px;
     height: 63px;
     z-index: 1100;
     background-color: black;
     border-radius: 100px;
   }
-  .burger-btn div {
+  .burger-btn-line {
+    position: absolute;
+    top: 50%;
+    /* left: 14px; */
     width: 36px;
     height: 3px;
-    top: 50%;
-    left: 50%;
+    background-color: #304ffe;
+    border-radius: 100px;
+    z-index: 1100;
+    transition: all 0.3s linear;
+  }
+  .burger-btn div::before {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 3px;
+    top: -10px;
+    left: 0;
+    background-color: #304ffe;
+    border-radius: 100px;
+    z-index: 1100;
+    transition: all 0.3s linear;
+  }
+  .burger-btn div::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 36px;
+    height: 3px;
     background-color: #304ffe;
     border-radius: 100px;
     z-index: 1100;
     transition: all 0.3s linear;
   }
   .burger-btn_open {
-    position: absolute;
+    position: relative;
     z-index: 1100;
+  }
+  .burger-btn_open div {
+    background-color: transparent;
+  }
+  .burger-btn_open div::before {
+    top: 0;
+    transform: rotateZ(-45deg);
+  }
+  .burger-btn_open div::after {
+    top: 0;
+    transform: rotateZ(45deg);
   }
 }
 @media (max-width: 767px) {
