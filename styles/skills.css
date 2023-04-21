@@ -17,7 +17,7 @@
   display: block;
   top: 0px;
   width: 45px;
-  height: 44px;
+  height: 45px;
   border-radius: 10px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -47,4 +47,17 @@
   line-height: 29px;
 }
 @media (max-width: 1199px) {
+  .skill__name {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .skill__description {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .skill::before {
+    width: 36px;
+    height: 36px;
+    background-size: 25px 25px;
+  }
 }

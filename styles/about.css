@@ -30,5 +30,6 @@
   .about__title {
     font-size: 60px;
     line-height: 70px;
+    width: 70%;
   }
 }
