@@ -25,14 +25,12 @@
   right: 0;
   border-radius: 10px;
 }
-
 .button-big:hover::after {
   right: auto;
   left: 0;
   width: 100%;
 }
-
-.button-big span {
+.button-big div {
   text-align: center;
   text-decoration: none;
   width: 100%;
@@ -43,12 +41,10 @@
   line-height: 39px;
   transition: all 0.3s ease-in-out;
 }
-
-.button-big:hover span {
+.button-big:hover div {
   color: #304ffe;
   animation: scaleUp 0.3s ease-in-out;
 }
-
 .button {
   margin-top: 60px;
   position: relative;
@@ -62,7 +58,6 @@
   overflow: hidden;
   border: none;
 }
-
 .button:after {
   content: " ";
   width: 0%;
@@ -74,13 +69,11 @@
   right: 0;
   border-radius: 10px;
 }
-
 .button:hover::after {
   right: auto;
   left: 0;
   width: 100%;
 }
-
 .button span {
   text-align: center;
   text-decoration: none;
@@ -92,22 +85,24 @@
   line-height: 29px;
   transition: all 0.3s ease-in-out;
 }
-
 .button:hover span {
   color: #304ffe;
   animation: scaleUp 0.3s ease-in-out;
 }
-
 @keyframes scaleUp {
   0% {
     transform: scale(1);
   }
-
   50% {
     transform: scale(0.95);
   }
-
   100% {
     transform: scale(1);
+  }
+}
+@media (max-width: 1199px) {
+  .button-big {
+    height: 125px;
+    width: 50%;
   }
 }
