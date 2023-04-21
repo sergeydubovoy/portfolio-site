@@ -1,12 +1,14 @@
 .contacts {
+  margin: 0 auto;
   margin-bottom: 10px;
   padding-top: 100px;
   height: 717px;
+  max-width: 2000px;
   border-radius: 30px;
-  background-image: url(../resources/photo-sergey.png);
   background-color: #191c19;
+  background-image: url(../resources/photo-sergey.png);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: 90%;
   background-size: contain;
 }
 .contacts-wrapper {
@@ -45,7 +47,7 @@
 }
 @media (max-width: 1199px) {
   .contacts {
-    padding: 50px 0 0 50px;
+    padding: 50px 0 50px 0;
     height: 484px;
   }
   .contacts__title {
@@ -61,5 +63,30 @@
     height: 41px;
     font-size: 16px;
     line-height: 21px;
+  }
+}
+@media (max-width: 767px) {
+  .contacts {
+    margin-bottom: 0;
+    background-image: none;
+    height: 428px;
+    border-radius: 0;
+  }
+  .contacts-wrapper {
+    width: 100%;
+  }
+  .contacts__title {
+    font-size: 35px;
+    line-height: 37px;
+  }
+  .input__form {
+    gap: 15px;
+    width: 100%;
+  }
+  .input {
+    padding-left: 21px;
+    height: 38px;
+    font-size: 15px;
+    line-height: 20px;
   }
 }

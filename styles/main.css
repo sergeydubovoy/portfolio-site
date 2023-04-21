@@ -36,7 +36,7 @@ button {
 }
 .title {
   margin-bottom: 80px;
-  max-width: 60%;
+  width: 60%;
   font-size: 55px;
   line-height: 72px;
 }
@@ -47,7 +47,19 @@ button {
   }
   .title {
     margin-bottom: 60px;
+    width: 80%;
     font-size: 45px;
     line-height: 58px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    padding: 0 10px 0 10px;
+  }
+  .title {
+    margin-bottom: 40px;
+    width: 100%;
+    font-size: 30px;
+    line-height: 39px;
   }
 }

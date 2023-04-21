@@ -145,4 +145,7 @@
   }
 }
 @media (max-width: 767px) {
+  .burger__content {
+    width: 90%;
+  }
 }

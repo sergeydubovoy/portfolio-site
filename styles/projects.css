@@ -115,3 +115,29 @@
     line-height: 31px;
   }
 }
+@media (max-width: 767px) {
+  .label {
+    height: 30px;
+    top: 30px;
+    left: 30px;
+  }
+  .label p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .projects__list {
+    margin-bottom: 60px;
+    gap: 40px;
+  }
+  .project__name {
+    left: 30px;
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .project__work {
+    bottom: 50px;
+    left: 30px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+}

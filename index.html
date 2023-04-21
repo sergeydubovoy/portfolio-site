@@ -57,7 +57,9 @@
       </section>
       <section class="projects" id="portfolio">
         <div class="container">
-          <h2 class="title projects__title">Самые свежие проекты</h2>
+          <h2 class="title projects__title" id="portfolio-burger">
+            Самые свежие проекты
+          </h2>
           <ul class="projects__list">
             <li class="project">
               <div class="label">
@@ -103,7 +105,9 @@
       </section>
       <section class="skills" id="skills">
         <div class="container">
-          <h2 class="title skills__title">Мои компетенции</h2>
+          <h2 class="title skills__title" id="skills-burger">
+            Мои компетенции
+          </h2>
           <ul class="skills__list">
             <li class="skill">
               <h3 class="skill__name">HTML и CSS</h3>
@@ -152,7 +156,7 @@
       </section>
       <section class="services" id="services">
         <div class="container">
-          <h2 class="title services__title">
+          <h2 class="title services__title" id="services-burger">
             Помогаю реализовать широкий спектр задач
           </h2>
           <ul class="services__list">
@@ -239,13 +243,10 @@
       <div class="footer__inner">
         <div class="container">
           <div class="footer__wrapper">
-            <div class="footer__column">
+            <div class="footer__row">
               <h3 class="footer__title">
                 Портфолио фронтенд-разработчика Сергея Дубового
               </h3>
-              <p class="rights">Все права защищены. 2023</p>
-            </div>
-            <div class="footer__column">
               <ul class="socials">
                 <li class="social">
                   <a
@@ -272,6 +273,9 @@
                   >
                 </li>
               </ul>
+            </div>
+            <div class="footer__row">
+              <p class="rights">Все права защищены. 2023</p>
               <a class="policy" target="_blank" href="/index.html"
                 >политика обработки данных</a
               >
@@ -287,13 +291,13 @@
         <nav class="burger__nav">
           <ul class="burger__nav-list">
             <ul class="burger__nav-link">
-              <a href="#about">Портфолио</a>
+              <a href="#portfolio-burger">Портфолио</a>
             </ul>
             <ul class="burger__nav-link">
-              <a href="#projects">Компетенции</a>
+              <a href="#skills-burger">Компетенции</a>
             </ul>
             <ul class="burger__nav-link">
-              <a href="#services">Услуги</a>
+              <a href="#services-burger">Услуги</a>
             </ul>
             <ul class="burger__nav-link">
               <a href="#contacts">Контакты</a>

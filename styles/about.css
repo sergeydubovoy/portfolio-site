@@ -1,6 +1,7 @@
 .about {
   height: 765px;
   padding: 330px 0 90px 0;
+  max-width: 2000px;
   background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.4) 0%,
@@ -22,7 +23,6 @@
   font-size: 80px;
   line-height: 70px;
   color: white;
-  min-width: 740px;
   max-width: 920px;
   transition: all 0.3s ease;
 }
@@ -30,6 +30,23 @@
   .about__title {
     font-size: 60px;
     line-height: 70px;
+    min-width: 740px;
     width: 70%;
+  }
+}
+@media (max-width: 767px) {
+  .about {
+    max-height: 716px;
+  }
+  .about__title {
+    min-width: 0;
+    width: 100%;
+    font-size: 40px;
+    line-height: 47px;
+  }
+  .about__description {
+    width: 90%;
+    font-size: 15px;
+    line-height: 20px;
   }
 }
