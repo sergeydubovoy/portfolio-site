@@ -11,9 +11,6 @@
   position: relative;
   width: calc(50% - 25px);
 }
-.skill:nth-last-child(1) {
-  margin-bottom: 0px;
-}
 .skill::before {
   content: "";
   position: absolute;
@@ -48,4 +45,6 @@
 .skill__description {
   font-size: 22px;
   line-height: 29px;
+}
+@media (max-width: 1199px) {
 }

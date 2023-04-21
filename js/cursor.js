@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
   const followCursor = () => {
-    // объявляем функцию followCursor
-    const el = document.querySelector(".follow-cursor"); // ищем элемент, который будет следовать за курсором
+    // объявляю функцию followCursor
+    const el = document.querySelector(".follow-cursor"); // ищу элемент-кружочек, который будет следовать за курсором
 
     window.addEventListener("mousemove", (e) => {
-      // при движении курсора
-      const target = e.target; // определяем, где находится курсор
+      // mousemove - при движении курсора
+      const target = e.target; // определяю, где находится курсор
       if (!target) return;
 
       if (
@@ -14,18 +14,16 @@ document.addEventListener("DOMContentLoaded", () => {
         target.closest("input")
       ) {
         // если курсор наведён на ссылку, кнопку и инпут
-        el.classList.add("follow-cursor_active"); // элементу добавляем активный класс
+        el.classList.add("follow-cursor_active"); // добавляю этому элементу активный класс
       } else {
         // иначе
-        el.classList.remove("follow-cursor_active"); // удаляем активный класс
+        el.classList.remove("follow-cursor_active"); // удаляю активный класс
       }
 
-      el.style.left = e.clientX + "px"; // задаём элементу позиционирование слева
+      el.style.left = e.clientX + "px"; // позиционирую
       el.style.top = e.clientY + "px";
-      // el.style.left = e.pageX + "px"; // задаём элементу позиционирование слева
-      // el.style.top = e.pageY + "px"; // задаём элементу позиционирование сверху
     });
   };
 
-  followCursor(); // вызываем функцию followCursor
+  followCursor(); // вызываю функцию followCursor
 });
