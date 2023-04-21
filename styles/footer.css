@@ -58,8 +58,28 @@
   line-height: 27px;
   text-align: right;
   color: black;
+  opacity: 0.5;
   transition: all 0.3s ease;
 }
 .policy:hover {
   color: #304ffe;
+}
+@media (max-width: 1199px) {
+  .footer__inner {
+    padding: 51px 30px 30px 30px;
+  }
+  .footer__column {
+    gap: 40px;
+  }
+  .footer__title,
+  .social {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .rights,
+  .policy {
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 0.5;
+  }
 }

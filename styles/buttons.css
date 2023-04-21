@@ -74,7 +74,7 @@
   left: 0;
   width: 100%;
 }
-.button span {
+.button div {
   text-align: center;
   text-decoration: none;
   width: 100%;
@@ -85,7 +85,7 @@
   line-height: 29px;
   transition: all 0.3s ease-in-out;
 }
-.button:hover span {
+.button:hover div {
   color: #304ffe;
   animation: scaleUp 0.3s ease-in-out;
 }
@@ -104,5 +104,14 @@
   .button-big {
     height: 125px;
     width: 50%;
+  }
+  .button {
+    margin-top: 40px;
+    height: 47px;
+    width: 40%;
+  }
+  .button div {
+    font-size: 16px;
+    line-height: 21px;
   }
 }
