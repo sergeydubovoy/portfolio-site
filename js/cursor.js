@@ -1,11 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   const followCursor = () => {
-    // объявляю функцию followCursor
-    const el = document.querySelector(".follow-cursor"); // ищу элемент-кружочек, который будет следовать за курсором
+    const el = document.querySelector(".follow-cursor");
 
     window.addEventListener("mousemove", (e) => {
-      // mousemove - при движении курсора
-      const target = e.target; // определяю, где находится курсор
+      const target = e.target;
       if (!target) return;
 
       if (
@@ -13,17 +11,15 @@ document.addEventListener("DOMContentLoaded", () => {
         target.closest("button") ||
         target.closest("input")
       ) {
-        // если курсор наведён на ссылку, кнопку и инпут
-        el.classList.add("follow-cursor_active"); // добавляю этому элементу активный класс
+        el.classList.add("follow-cursor_active");
       } else {
-        // иначе
-        el.classList.remove("follow-cursor_active"); // удаляю активный класс
+        el.classList.remove("follow-cursor_active");
       }
 
-      el.style.left = e.clientX + "px"; // позиционирую
+      el.style.left = e.clientX + "px";
       el.style.top = e.clientY + "px";
     });
   };
 
-  followCursor(); // вызываю функцию followCursor
+  followCursor();
 });
